@@ -1,31 +1,445 @@
----
-layout: null
-sitemap: false
----
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>{{ site.title | xml_escape }}</title>
-    <description>{{ site.description | xml_escape }}</description>
-    <link>{{ site.url }}</link>
+    <title></title>
+    <description></description>
+    <link>http://beautyinfull.com</link>
     <atom:link
       rel="self"
       type="application/rss+xml"
-      href="{{ "/feed.xml" | prepend: site.url }}"/>
-    <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
-    <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
-    <generator>Jekyll v{{ jekyll.version }}</generator>
-    {% for post in site.posts limit:10 %}
+      href="http://beautyinfull.com/feed.xml"/>
+    <pubDate>Sun, 25 Jun 2017 11:32:16 -0300</pubDate>
+    <lastBuildDate>Sun, 25 Jun 2017 11:32:16 -0300</lastBuildDate>
+    <generator>Jekyll v3.3.1</generator>
+    
       <item>
-        <title>{{ post.title | xml_escape }}</title>
-        <description>{{ post.content | xml_escape }}</description>
-        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-        <link>{{ post.url | prepend: site.url }}</link>
-        <guid isPermaLink="true">{{ post.url | prepend: site.url }}</guid>
-        {% for cat in post.categories %}
-        <category>{{ cat | xml_escape }}</category>
-        {% endfor %}
+        <title>Budweiser</title>
+        <description>&lt;h1 id=&quot;harry-potter-is-real&quot;&gt;Harry Potter is Real&lt;/h1&gt;
+
+&lt;p&gt;This text represents a paragraph, this paragraph can be as long as you want it
+to be. This text represents a paragraph, this paragraph can be as long as you
+want it to be.&lt;/p&gt;
+
+&lt;p&gt;This text represents another paragraph, this paragraph can be as long as you
+want it to be. This text represents a paragraph, this paragraph can be as long
+as you want it to be.&lt;/p&gt;
+
+&lt;h2 id=&quot;this-is-a-secondary-header&quot;&gt;This is a secondary header&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;this is an&lt;/li&gt;
+  &lt;li&gt;unordered list of&lt;/li&gt;
+  &lt;li&gt;elements&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;third-level-header&quot;&gt;Third level header&lt;/h3&gt;
+
+&lt;p&gt;This paragraph uses some &lt;em&gt;italic&lt;/em&gt; and some more &lt;strong&gt;emphasis&lt;/strong&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;This is a blockquote, this blockquote can be as long as you want it to be.
+This is a blockquote, this blockquote can be as long as you want it to be.
+This is a blockquote, this blockquote can be as long as you want it to be.
+This is a blockquote, this blockquote can be as long as you want it to be.
+&lt;span class=&quot;quote&quot;&gt;said &lt;strong&gt;whomever&lt;/strong&gt; person&lt;/span&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;this is&lt;/li&gt;
+  &lt;li&gt;an ordered&lt;/li&gt;
+  &lt;li&gt;list&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;This paragraph has a &lt;a href=&quot;http://www.beautyinfull.com/&quot;&gt;link&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;This is a list item with two paragraphs.&lt;/p&gt;
+
+    &lt;p&gt;This is the second paragraph in the list item. You’re
+only required to indent the first line. Lorem ipsum dolor
+sit amet, consectetuer adipiscing elit.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Another item in the same list.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This is an non default image&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/posts/post_1.jpg&quot; alt=&quot;Pretty Picture&quot; /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;A sample that has a highlighted header&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;p&gt;And a nested paragraph&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Another title&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;p&gt;Another nested paragraph&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;A paragraph with an email link &lt;a href=&quot;mailto:info@beautyinfull.com&quot;&gt;info@beautyinfull.com&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 01 May 2017 00:00:00 -0300</pubDate>
+        <link>http://beautyinfull.com/budweiser/</link>
+        <guid isPermaLink="true">http://beautyinfull.com/budweiser/</guid>
+        
+        <category>care</category>
+        
+        <category>home</category>
+        
+        <category>carousel</category>
+        
+        <category>featured</category>
+        
       </item>
-    {% endfor %}
+    
+      <item>
+        <title>A post about style</title>
+        <description>&lt;h1 id=&quot;this-is-a-primary-header&quot;&gt;This is a primary header&lt;/h1&gt;
+
+&lt;p&gt;This text represents a paragraph, this paragraph can be as long as you want it
+to be. This text represents a paragraph, this paragraph can be as long as you
+want it to be.&lt;/p&gt;
+
+&lt;p&gt;This text represents another paragraph, this paragraph can be as long as you
+want it to be. This text represents a paragraph, this paragraph can be as long
+as you want it to be.&lt;/p&gt;
+
+&lt;h2 id=&quot;this-is-a-secondary-header&quot;&gt;This is a secondary header&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;this is an&lt;/li&gt;
+  &lt;li&gt;unordered list of&lt;/li&gt;
+  &lt;li&gt;elements&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;third-level-header&quot;&gt;Third level header&lt;/h3&gt;
+
+&lt;p&gt;This paragraph uses some &lt;em&gt;italic&lt;/em&gt; and some more &lt;strong&gt;emphasis&lt;/strong&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;This is a blockquote, this blockquote can be as long as you want it to be.
+This is a blockquote, this blockquote can be as long as you want it to be.
+This is a blockquote, this blockquote can be as long as you want it to be.
+This is a blockquote, this blockquote can be as long as you want it to be.
+&lt;span class=&quot;quote&quot;&gt;said &lt;strong&gt;whomever&lt;/strong&gt; person&lt;/span&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;this is&lt;/li&gt;
+  &lt;li&gt;an ordered&lt;/li&gt;
+  &lt;li&gt;list&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;This paragraph has a &lt;a href=&quot;http://www.beautyinfull.com/&quot;&gt;link&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;This is a list item with two paragraphs.&lt;/p&gt;
+
+    &lt;p&gt;This is the second paragraph in the list item. You’re
+only required to indent the first line. Lorem ipsum dolor
+sit amet, consectetuer adipiscing elit.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Another item in the same list.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This is an non default image&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/posts/post_1.jpg&quot; alt=&quot;Pretty Picture&quot; /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;A sample that has a highlighted header&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;p&gt;And a nested paragraph&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Another title&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;p&gt;Another nested paragraph&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;A paragraph with an email link &lt;a href=&quot;mailto:info@beautyinfull.com&quot;&gt;info@beautyinfull.com&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Thu, 21 Jan 2016 00:00:00 -0200</pubDate>
+        <link>http://beautyinfull.com/a-post-about-style/</link>
+        <guid isPermaLink="true">http://beautyinfull.com/a-post-about-style/</guid>
+        
+        <category>care</category>
+        
+        <category>home</category>
+        
+        <category>carousel</category>
+        
+        <category>featured</category>
+        
+      </item>
+    
+      <item>
+        <title>A post about makeup</title>
+        <description>&lt;h1 id=&quot;this-is-a-primary-header&quot;&gt;This is a primary header&lt;/h1&gt;
+
+&lt;p&gt;This text represents a paragraph, this paragraph can be as long as you want it
+to be. This text represents a paragraph, this paragraph can be as long as you
+want it to be.&lt;/p&gt;
+
+&lt;p&gt;This text represents another paragraph, this paragraph can be as long as you
+want it to be. This text represents a paragraph, this paragraph can be as long
+as you want it to be.&lt;/p&gt;
+
+&lt;h2 id=&quot;this-is-a-secondary-header&quot;&gt;This is a secondary header&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;this is an&lt;/li&gt;
+  &lt;li&gt;unordered list of&lt;/li&gt;
+  &lt;li&gt;elements&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;third-level-header&quot;&gt;Third level header&lt;/h3&gt;
+
+&lt;p&gt;This paragraph uses some &lt;em&gt;italic&lt;/em&gt; and some more &lt;strong&gt;emphasis&lt;/strong&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;This is a blockquote, this blockquote can be as long as you want it to be.
+This is a blockquote, this blockquote can be as long as you want it to be.
+This is a blockquote, this blockquote can be as long as you want it to be.
+This is a blockquote, this blockquote can be as long as you want it to be.
+&lt;span class=&quot;quote&quot;&gt;said &lt;strong&gt;whomever&lt;/strong&gt; person&lt;/span&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;this is&lt;/li&gt;
+  &lt;li&gt;an ordered&lt;/li&gt;
+  &lt;li&gt;list&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;This paragraph has a &lt;a href=&quot;http://www.beautyinfull.com/&quot;&gt;link&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;This is a list item with two paragraphs.&lt;/p&gt;
+
+    &lt;p&gt;This is the second paragraph in the list item. You’re
+only required to indent the first line. Lorem ipsum dolor
+sit amet, consectetuer adipiscing elit.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Another item in the same list.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This is an non default image&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/posts/post_1.jpg&quot; alt=&quot;Pretty Picture&quot; /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;A sample that has a highlighted header&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;p&gt;And a nested paragraph&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Another title&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;p&gt;Another nested paragraph&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;A paragraph with an email link &lt;a href=&quot;mailto:info@beautyinfull.com&quot;&gt;info@beautyinfull.com&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Thu, 21 Jan 2016 00:00:00 -0200</pubDate>
+        <link>http://beautyinfull.com/a-post-about-makeup/</link>
+        <guid isPermaLink="true">http://beautyinfull.com/a-post-about-makeup/</guid>
+        
+        <category>care</category>
+        
+        <category>home</category>
+        
+        <category>carousel</category>
+        
+        <category>featured</category>
+        
+      </item>
+    
+      <item>
+        <title>A post about hair</title>
+        <description>&lt;h1 id=&quot;this-is-a-primary-header&quot;&gt;This is a primary header&lt;/h1&gt;
+
+&lt;p&gt;This text represents a paragraph, this paragraph can be as long as you want it
+to be. This text represents a paragraph, this paragraph can be as long as you
+want it to be.&lt;/p&gt;
+
+&lt;p&gt;This text represents another paragraph, this paragraph can be as long as you
+want it to be. This text represents a paragraph, this paragraph can be as long
+as you want it to be.&lt;/p&gt;
+
+&lt;h2 id=&quot;this-is-a-secondary-header&quot;&gt;This is a secondary header&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;this is an&lt;/li&gt;
+  &lt;li&gt;unordered list of&lt;/li&gt;
+  &lt;li&gt;elements&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;third-level-header&quot;&gt;Third level header&lt;/h3&gt;
+
+&lt;p&gt;This paragraph uses some &lt;em&gt;italic&lt;/em&gt; and some more &lt;strong&gt;emphasis&lt;/strong&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;This is a blockquote, this blockquote can be as long as you want it to be.
+This is a blockquote, this blockquote can be as long as you want it to be.
+This is a blockquote, this blockquote can be as long as you want it to be.
+This is a blockquote, this blockquote can be as long as you want it to be.
+&lt;span class=&quot;quote&quot;&gt;said &lt;strong&gt;whomever&lt;/strong&gt; person&lt;/span&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;this is&lt;/li&gt;
+  &lt;li&gt;an ordered&lt;/li&gt;
+  &lt;li&gt;list&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;This paragraph has a &lt;a href=&quot;http://www.beautyinfull.com/&quot;&gt;link&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;This is a list item with two paragraphs.&lt;/p&gt;
+
+    &lt;p&gt;This is the second paragraph in the list item. You’re
+only required to indent the first line. Lorem ipsum dolor
+sit amet, consectetuer adipiscing elit.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Another item in the same list.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This is an non default image&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/posts/post_1.jpg&quot; alt=&quot;Pretty Picture&quot; /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;A sample that has a highlighted header&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;p&gt;And a nested paragraph&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Another title&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;p&gt;Another nested paragraph&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;A paragraph with an email link &lt;a href=&quot;mailto:info@beautyinfull.com&quot;&gt;info@beautyinfull.com&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Thu, 21 Jan 2016 00:00:00 -0200</pubDate>
+        <link>http://beautyinfull.com/a-post-about-hair/</link>
+        <guid isPermaLink="true">http://beautyinfull.com/a-post-about-hair/</guid>
+        
+        <category>care</category>
+        
+        <category>home</category>
+        
+        <category>carousel</category>
+        
+        <category>featured</category>
+        
+      </item>
+    
+      <item>
+        <title>Post 1</title>
+        <description>&lt;h1 id=&quot;this-is-a-primary-header&quot;&gt;This is a primary header&lt;/h1&gt;
+
+&lt;p&gt;This text represents a paragraph, this paragraph can be as long as you want it
+to be. This text represents a paragraph, this paragraph can be as long as you
+want it to be.&lt;/p&gt;
+
+&lt;p&gt;This text represents another paragraph, this paragraph can be as long as you
+want it to be. This text represents a paragraph, this paragraph can be as long
+as you want it to be.&lt;/p&gt;
+
+&lt;h2 id=&quot;this-is-a-secondary-header&quot;&gt;This is a secondary header&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;this is an&lt;/li&gt;
+  &lt;li&gt;unordered list of&lt;/li&gt;
+  &lt;li&gt;elements&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;third-level-header&quot;&gt;Third level header&lt;/h3&gt;
+
+&lt;p&gt;This paragraph uses some &lt;em&gt;italic&lt;/em&gt; and some more &lt;strong&gt;emphasis&lt;/strong&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;This is a blockquote, this blockquote can be as long as you want it to be.
+This is a blockquote, this blockquote can be as long as you want it to be.
+This is a blockquote, this blockquote can be as long as you want it to be.
+&lt;span class=&quot;quote&quot;&gt;said &lt;strong&gt;whomever&lt;/strong&gt; person&lt;/span&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;this is&lt;/li&gt;
+  &lt;li&gt;an ordered&lt;/li&gt;
+  &lt;li&gt;list&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;This paragraph has a &lt;a href=&quot;http://www.beautyinfull.com/&quot;&gt;link&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;This is a list item with two paragraphs.&lt;/p&gt;
+
+    &lt;p&gt;This is the second paragraph in the list item. You’re
+only required to indent the first line. Lorem ipsum dolor
+sit amet, consectetuer adipiscing elit.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Another item in the same list.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This is an non default image&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/posts/post_1.jpg&quot; alt=&quot;Pretty Picture&quot; /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;A sample that has a highlighted header&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;p&gt;And a nested paragraph&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Another title&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;p&gt;Another nested paragraph&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;A paragraph with an email link &lt;a href=&quot;mailto:info@beautyinfull.com&quot;&gt;info@beautyinfull.com&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Thu, 21 Jan 2016 00:00:00 -0200</pubDate>
+        <link>http://beautyinfull.com/a-post-about-beauty/</link>
+        <guid isPermaLink="true">http://beautyinfull.com/a-post-about-beauty/</guid>
+        
+        <category>care</category>
+        
+        <category>home</category>
+        
+        <category>carousel</category>
+        
+        <category>featured</category>
+        
+      </item>
+    
   </channel>
 </rss>

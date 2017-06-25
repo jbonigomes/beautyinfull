@@ -1,20 +1,69 @@
----
-layout: null
----
-{% assign posts=site.posts %}
+
 {
-  {% for post in posts %}
-    "{{ post.url | slugify }}": {
-      "title": "{{ post.title | xml_escape }}",
-      "subtitle": "{{ post.subtitle | xml_escape }}",
-      "content": "{{ post.content | strip_html | strip_newlines }}",
-      "url": "{{ post.url | xml_escape }}",
-      "description": "{{ post.description | xml_escape }}",
-      "categories": "{{ post.categories | join: ', ' }}",
-      "date": "{{ post.date | date: '%b %-d, %Y' }}",
-      "author": "{{ post.author | xml_escape }}",
-      "image": "{{ post.image | xml_escape }}"
+  
+    "budweiser": {
+      "title": "Budweiser",
+      "subtitle": "The bud subtitle",
+      "content": "Harry Potter is RealThis text represents a paragraph, this paragraph can be as long as you want itto be. This text represents a paragraph, this paragraph can be as long as youwant it to be.This text represents another paragraph, this paragraph can be as long as youwant it to be. This text represents a paragraph, this paragraph can be as longas you want it to be.This is a secondary header  this is an  unordered list of  elementsThird level headerThis paragraph uses some italic and some more emphasis  This is a blockquote, this blockquote can be as long as you want it to be.This is a blockquote, this blockquote can be as long as you want it to be.This is a blockquote, this blockquote can be as long as you want it to be.This is a blockquote, this blockquote can be as long as you want it to be.said whomever person  this is  an ordered  listThis paragraph has a link      This is a list item with two paragraphs.    This is the second paragraph in the list item. You’reonly required to indent the first line. Lorem ipsum dolorsit amet, consectetuer adipiscing elit.        Another item in the same list.  This is an non default image      A sample that has a highlighted header    And a nested paragraph        Another title    Another nested paragraph  A paragraph with an email link info@beautyinfull.com",
+      "url": "/budweiser/",
+      "description": "This text represents a paragraph, this paragraph can be as...",
+      "categories": "care, home, carousel, featured",
+      "date": "May 1, 2017",
+      "author": "Jose",
+      "image": "/img/posts/post_4.jpg"
     }
-    {% unless forloop.last %},{% endunless %}
-  {% endfor %}
+    ,
+  
+    "a-post-about-style": {
+      "title": "A post about style",
+      "subtitle": "The post subtitle here",
+      "content": "This is a primary headerThis text represents a paragraph, this paragraph can be as long as you want itto be. This text represents a paragraph, this paragraph can be as long as youwant it to be.This text represents another paragraph, this paragraph can be as long as youwant it to be. This text represents a paragraph, this paragraph can be as longas you want it to be.This is a secondary header  this is an  unordered list of  elementsThird level headerThis paragraph uses some italic and some more emphasis  This is a blockquote, this blockquote can be as long as you want it to be.This is a blockquote, this blockquote can be as long as you want it to be.This is a blockquote, this blockquote can be as long as you want it to be.This is a blockquote, this blockquote can be as long as you want it to be.said whomever person  this is  an ordered  listThis paragraph has a link      This is a list item with two paragraphs.    This is the second paragraph in the list item. You’reonly required to indent the first line. Lorem ipsum dolorsit amet, consectetuer adipiscing elit.        Another item in the same list.  This is an non default image      A sample that has a highlighted header    And a nested paragraph        Another title    Another nested paragraph  A paragraph with an email link info@beautyinfull.com",
+      "url": "/a-post-about-style/",
+      "description": "This text represents a paragraph, this paragraph can be as...",
+      "categories": "care, home, carousel, featured",
+      "date": "Jan 21, 2016",
+      "author": "Jose",
+      "image": "/img/posts/post_4.jpg"
+    }
+    ,
+  
+    "a-post-about-makeup": {
+      "title": "A post about makeup",
+      "subtitle": "The post subtitle here",
+      "content": "This is a primary headerThis text represents a paragraph, this paragraph can be as long as you want itto be. This text represents a paragraph, this paragraph can be as long as youwant it to be.This text represents another paragraph, this paragraph can be as long as youwant it to be. This text represents a paragraph, this paragraph can be as longas you want it to be.This is a secondary header  this is an  unordered list of  elementsThird level headerThis paragraph uses some italic and some more emphasis  This is a blockquote, this blockquote can be as long as you want it to be.This is a blockquote, this blockquote can be as long as you want it to be.This is a blockquote, this blockquote can be as long as you want it to be.This is a blockquote, this blockquote can be as long as you want it to be.said whomever person  this is  an ordered  listThis paragraph has a link      This is a list item with two paragraphs.    This is the second paragraph in the list item. You’reonly required to indent the first line. Lorem ipsum dolorsit amet, consectetuer adipiscing elit.        Another item in the same list.  This is an non default image      A sample that has a highlighted header    And a nested paragraph        Another title    Another nested paragraph  A paragraph with an email link info@beautyinfull.com",
+      "url": "/a-post-about-makeup/",
+      "description": "This text represents a paragraph, this paragraph can be as...",
+      "categories": "care, home, carousel, featured",
+      "date": "Jan 21, 2016",
+      "author": "Jose",
+      "image": "/img/posts/post_3.jpg"
+    }
+    ,
+  
+    "a-post-about-hair": {
+      "title": "A post about hair",
+      "subtitle": "The post subtitle here",
+      "content": "This is a primary headerThis text represents a paragraph, this paragraph can be as long as you want itto be. This text represents a paragraph, this paragraph can be as long as youwant it to be.This text represents another paragraph, this paragraph can be as long as youwant it to be. This text represents a paragraph, this paragraph can be as longas you want it to be.This is a secondary header  this is an  unordered list of  elementsThird level headerThis paragraph uses some italic and some more emphasis  This is a blockquote, this blockquote can be as long as you want it to be.This is a blockquote, this blockquote can be as long as you want it to be.This is a blockquote, this blockquote can be as long as you want it to be.This is a blockquote, this blockquote can be as long as you want it to be.said whomever person  this is  an ordered  listThis paragraph has a link      This is a list item with two paragraphs.    This is the second paragraph in the list item. You’reonly required to indent the first line. Lorem ipsum dolorsit amet, consectetuer adipiscing elit.        Another item in the same list.  This is an non default image      A sample that has a highlighted header    And a nested paragraph        Another title    Another nested paragraph  A paragraph with an email link info@beautyinfull.com",
+      "url": "/a-post-about-hair/",
+      "description": "This text represents a paragraph, this paragraph can be as...",
+      "categories": "care, home, carousel, featured",
+      "date": "Jan 21, 2016",
+      "author": "Jose",
+      "image": "/img/posts/post_2.jpg"
+    }
+    ,
+  
+    "a-post-about-beauty": {
+      "title": "Post 1",
+      "subtitle": "The post subtitle here",
+      "content": "This is a primary headerThis text represents a paragraph, this paragraph can be as long as you want itto be. This text represents a paragraph, this paragraph can be as long as youwant it to be.This text represents another paragraph, this paragraph can be as long as youwant it to be. This text represents a paragraph, this paragraph can be as longas you want it to be.This is a secondary header  this is an  unordered list of  elementsThird level headerThis paragraph uses some italic and some more emphasis  This is a blockquote, this blockquote can be as long as you want it to be.This is a blockquote, this blockquote can be as long as you want it to be.This is a blockquote, this blockquote can be as long as you want it to be.said whomever person  this is  an ordered  listThis paragraph has a link      This is a list item with two paragraphs.    This is the second paragraph in the list item. You’reonly required to indent the first line. Lorem ipsum dolorsit amet, consectetuer adipiscing elit.        Another item in the same list.  This is an non default image      A sample that has a highlighted header    And a nested paragraph        Another title    Another nested paragraph  A paragraph with an email link info@beautyinfull.com",
+      "url": "/a-post-about-beauty/",
+      "description": "This text represents a paragraph, this paragraph can be as...",
+      "categories": "care, home, carousel, featured",
+      "date": "Jan 21, 2016",
+      "author": "Jose",
+      "image": "/img/posts/post_1.jpg"
+    }
+    
+  
 }

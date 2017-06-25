@@ -1,27 +1,141 @@
----
-layout: null
-sitemap: false
----
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  {% for post in site.posts %}
-    {% unless post.sitemap == false %}
+  
+    
     <url>
-      <loc>{{ site.url }}{{ post.permalink }}</loc>
-      <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
+      <loc>http://beautyinfull.com/budweiser/</loc>
+      <lastmod>2017-05-01T00:00:00-03:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
     </url>
-    {% endunless %}
-  {% endfor %}
-  {% for page in site.pages %}
-    {% unless page.sitemap == false %}
+    
+  
+    
     <url>
-      <loc>{{ site.url }}{{ page.permalink }}</loc>
-      <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+      <loc>http://beautyinfull.com/a-post-about-style/</loc>
+      <lastmod>2016-01-21T00:00:00-02:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://beautyinfull.com/a-post-about-makeup/</loc>
+      <lastmod>2016-01-21T00:00:00-02:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://beautyinfull.com/a-post-about-hair/</loc>
+      <lastmod>2016-01-21T00:00:00-02:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://beautyinfull.com/a-post-about-beauty/</loc>
+      <lastmod>2016-01-21T00:00:00-02:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
+    </url>
+    
+  
+  
+    
+  
+    
+    <url>
+      <loc>http://beautyinfull.com/about/</loc>
+      <lastmod>2017-06-25T11:32:16-03:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.3</priority>
     </url>
-    {% endunless %}
-  {% endfor %}
+    
+  
+    
+    <url>
+      <loc>http://beautyinfull.com/advertise/</loc>
+      <lastmod>2017-06-25T11:32:16-03:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.3</priority>
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://beautyinfull.com/care/</loc>
+      <lastmod>2017-06-25T11:32:16-03:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.3</priority>
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://beautyinfull.com/contact/</loc>
+      <lastmod>2017-06-25T11:32:16-03:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.3</priority>
+    </url>
+    
+  
+    
+  
+    
+    <url>
+      <loc>http://beautyinfull.com/</loc>
+      <lastmod>2017-06-25T11:32:16-03:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.3</priority>
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://beautyinfull.com</loc>
+      <lastmod>2017-06-25T11:32:16-03:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.3</priority>
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://beautyinfull.com/privacy/</loc>
+      <lastmod>2017-06-25T11:32:16-03:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.3</priority>
+    </url>
+    
+  
+    
+  
+    
+    <url>
+      <loc>http://beautyinfull.com</loc>
+      <lastmod>2017-06-25T11:32:16-03:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.3</priority>
+    </url>
+    
+  
+    
+  
+    
+    <url>
+      <loc>http://beautyinfull.com/terms/</loc>
+      <lastmod>2017-06-25T11:32:16-03:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.3</priority>
+    </url>
+    
+  
+    
+  
 </urlset>
